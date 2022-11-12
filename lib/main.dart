@@ -10,7 +10,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'Clean Architecture',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -32,9 +33,16 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: const Text('Demo'),
+      appBar: AppBar(
+        title: const Text(
+          'Clean Architecture',
         ),
-        body: Container());
+      ),
+      body: const Center(
+        child: Text(
+          "Clean Architecture",
+        ),
+      ),
+    );
   }
 }
