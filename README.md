@@ -1,6 +1,6 @@
-# Movies-App
+# Clean-Architecture
 
-Flutter Mobile App applying Clean Architecture Principles
+Clean-Architecture using Flutter
 
 ## What is Clean Architecture?
 
