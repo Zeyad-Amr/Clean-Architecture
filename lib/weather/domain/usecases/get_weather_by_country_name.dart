@@ -1,8 +1,8 @@
 import 'package:movies_app/weather/domain/entities/weather.dart';
-import 'package:movies_app/weather/domain/repository/weather_repository.dart';
+import 'package:movies_app/weather/domain/repository/base_weather_repository.dart';
 
 class GetWeatherByCountryName {
-  final WeatherRepository repository;
+  final BaseWeatherRepository repository;
 
   GetWeatherByCountryName(this.repository);
 
