@@ -14,9 +14,9 @@ class WeatherModel extends Weather {
     return WeatherModel(
       id: json["id"],
       countryName: json["name"],
-      main: json["weather"]["main"],
+      main: json["weather"][0]["main"],
       description: json["weather"][0]["description"],
-      pressure: json["main"][0]["pressure"],
+      pressure: json["main"]["pressure"],
       temp: json["main"]["temp"],
     );
   }
